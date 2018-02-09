@@ -51,4 +51,10 @@ use the `--api-address` flag if you want to costomize the IP and port raiden wil
 
 * Select the Ethereum account when prompted, and type in the account’s password.
 
+* For running the web ui, make sure you have nodejs installed, and then:
+
+`python setup.py compile_webui`
+
+Lauch raiden again with the aforementioned command
+
 Hurray! :beer: :beer: You are good.
