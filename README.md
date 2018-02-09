@@ -1,4 +1,4 @@
-<h1> The Raiden Swap Proof of Concept Guide </h1>
+<h1> The Raiden Atomic Swap Proof of Concept Guide </h1>
 
 <h2> Setup Guide <h2>
 
