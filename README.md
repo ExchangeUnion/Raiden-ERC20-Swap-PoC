@@ -2,4 +2,4 @@
 
 <h2> Setup Guide <h2>
 
-* How to set up and install Raiden Network
+* [How to set up and install Raiden Network](https://github.com/dopetard/Raiden-Test/blob/master/INSTALLATION.md) :beer:
