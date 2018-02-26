@@ -20,6 +20,7 @@ d1 HTTP/1.1" 200 374 0.145373 `
 It's important to note that if there is a path in the network with enough capacity and the address sending the transfer holds enough tokens to transfer the amount in the payload, the transfer will go through. 
 
 
+
 Previous:
 * [2. How to Open, Close and Settle a Payment Channel](https://github.com/dopetard/Raiden-ERC20-Atomic-Swap-POC-/blob/master/OpenChannel.md)
 
