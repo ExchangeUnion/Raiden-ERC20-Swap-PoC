@@ -1,3 +1,4 @@
+<h1>4. Atomic Swap </h1>
 
 Just like instant Payments, It's incredibly easy to Swap two ERC20 tokens between Raiden nodes using WebUI 
 
@@ -23,3 +24,6 @@ The the channel balances will be repectively updated
 
 ![after1](https://github.com/dopetard/Raiden-ERC20-Atomic-Swap-POC-/blob/master/after1.png)
 ![after2](https://github.com/dopetard/Raiden-ERC20-Atomic-Swap-POC-/blob/master/after2.png)
+
+Previous:
+* [3. How to transfer ERC20 tokens through payment channel](https://github.com/dopetard/Raiden-ERC20-Atomic-Swap-POC-/blob/master/TransferTokens.md)
