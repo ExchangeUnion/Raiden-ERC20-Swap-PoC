@@ -1,4 +1,6 @@
-<h1> The Raiden Atomic Swap Proof of Concept Guide </h1>
+<h1> The Raiden ERC20 Atomic Swap Guide </h1>
+
+This guide walks through all steps to perform an ERC20 <-> ERC20 Atomic swap using two Raiden nodes.
 
 <h2> Setup Guide <h2>
 
