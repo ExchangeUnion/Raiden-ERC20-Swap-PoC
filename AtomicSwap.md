@@ -26,4 +26,4 @@ And the channel balances will be repectively updated
 ![after2](https://github.com/dopetard/Raiden-ERC20-Atomic-Swap-POC-/blob/master/after2.png)
 
 Previous:
-* [3. How to transfer ERC20 tokens through a payment channel](https://github.com/dopetard/Raiden-ERC20-Atomic-Swap-POC-/blob/master/TransferTokens.md)
+* [3. How to transfer ERC20 tokens through a payment channel](TransferTokens.md)
