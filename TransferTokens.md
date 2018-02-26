@@ -1,5 +1,5 @@
 
-<h1>3. How to transfer ERC20 tokens through Payment Channel </h1>
+<h1>3. How to transfer ERC20 tokens through a Payment Channel </h1>
 
 Raiden's Web Application makes transferring the tokens a breeze 
 
