@@ -46,7 +46,7 @@ Closing and setting Channel can be done through the `close` endpoint OR through 
  `
  
 Previous:
-* [1. How to set up and Install Raiden Network](https://github.com/dopetard/Raiden-Test/blob/master/INSTALLATION.md)
+* [1. How to set up and Install Raiden Network](INSTALLATION.md)
 
 Next:
-* [3. How to transfer ERC20 tokens through a payment channel](https://github.com/dopetard/Raiden-ERC20-Atomic-Swap-POC-/blob/master/TransferTokens.md)
+* [3. How to transfer ERC20 tokens through a payment channel](TransferTokens.md)
