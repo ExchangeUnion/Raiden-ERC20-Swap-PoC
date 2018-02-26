@@ -1,4 +1,4 @@
-<h1> How to open a Payment Channel </h1>
+<h1>2. How to open a Payment Channel </h1>
 
 With two Raiden node running simultaneously, you can start the web application on both nodes in two different ports and open the channel through the User-Interface.
 
@@ -47,3 +47,8 @@ with the payload:
   }
  `
  
+Previous:
+* [1. How to set up and Install Raiden Network](https://github.com/dopetard/Raiden-Test/blob/master/INSTALLATION.md)
+
+Next:
+* [3. How to transfer ERC20 tokens through payment channel](https://github.com/dopetard/Raiden-ERC20-Atomic-Swap-POC-/blob/master/TransferTokens.md)
