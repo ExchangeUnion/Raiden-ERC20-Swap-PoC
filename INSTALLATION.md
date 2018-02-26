@@ -60,5 +60,6 @@ Lauch raiden again with the aforementioned command.
 
 <h2> Setup another virtualenv and Raiden-node to faciliate the transfer and swap of ERC20 tokens </h2> 
 
+**In the works**
 
 
