@@ -35,7 +35,9 @@
 
 * Run the Parity Client and let it sync with the Ropsten testnet
 
-`parity --chain ropsten --bootnodes "enode://076bba608093d171bfdbb905b76aa089e2d746eaf263a2c604dfa143ba609548fdff5d734081a617f48a6802df7a71a4ee48f2175d89d17d333be3e747c87e72@138.197.111.208:30303"`
+You will need ports 8545, 8546 and 8180 open if you are trying to run parity remotely.
+
+`parity --chain ropsten --bootnodes "enode://076bba608093d171bfdbb905b76aa089e2d746eaf263a2c604dfa143ba609548fdff5d734081a617f48a6802df7a71a4ee48f2175d89d17d333be3e747c87e72@138.197.111.208:30303" --jsonrpc-cors* --unsafe-expose`
 
 If some problem arises or some bootnodes are dead, have a look at [Ropsten Readme](raiden-network.readthedocs.io/en/stable/overview_and_guide.html)
 
@@ -57,4 +59,3 @@ use the `--api-address` flag if you want to costomize the IP and port raiden wil
 
 Lauch raiden again with the aforementioned command
 
-Hurray! :beer: :beer: You are good.
