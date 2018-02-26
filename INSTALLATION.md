@@ -49,7 +49,7 @@ If some problem arises or some bootnodes are dead, have a look at [Ropsten Readm
 
 `raiden --keystore-path ~/.local/share/io.parity.ethereum/keys/test --gas-price 10000000000`
 
-use the `--api-address` flag if you want to costomize the IP and port raiden will listen on
+use the `--api-address` `--listen-address` flag if you want to costomize the IP and port raiden will listen on
 
 * Select the Ethereum account when prompted, and type in the account’s password.
 
@@ -58,4 +58,8 @@ use the `--api-address` flag if you want to costomize the IP and port raiden wil
 `python setup.py compile_webui`
 
 Lauch raiden again with the aforementioned command
+
+<h2> Setup another virtualenv and Raiden-node to faciliate the transfer and swap of ERC20 tokens </h2> 
+
+
 
