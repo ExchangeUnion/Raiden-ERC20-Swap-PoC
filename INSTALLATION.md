@@ -63,4 +63,4 @@ Lauch raiden again with the aforementioned command.
 **In the works**
 
 Next:
-* [2. How to Open, Close and Settle a Payment Channel](https://github.com/dopetard/Raiden-ERC20-Atomic-Swap-POC-/blob/master/OpenChannel.md)
+* [2. How to Open, Close and Settle a Payment Channel](OpenChannel.md)
