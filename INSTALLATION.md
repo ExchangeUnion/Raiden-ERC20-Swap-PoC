@@ -47,7 +47,7 @@ If some problem arises or some bootnodes are dead, have a look at [Ropsten Readm
 
 * Create an account on Parity and fill it in with some test ether :beer: :beer: from ` http://faucet.ropsten.be:3001/ ` ,launch Raiden with the path of your keystore supplied: 
 
-`raiden --keystore-path ~/.local/share/io.parity.ethereum/keys/test`
+`raiden --keystore-path ~/.local/share/io.parity.ethereum/keys/test --gas-price 10000000000`
 
 use the `--api-address` flag if you want to costomize the IP and port raiden will listen on
 
