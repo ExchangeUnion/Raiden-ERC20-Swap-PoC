@@ -64,5 +64,3 @@ Lauch raiden again with the aforementioned command.
 
 Next:
 * [2. How to Open, Close and Settle a Payment Channel](https://github.com/dopetard/Raiden-ERC20-Atomic-Swap-POC-/blob/master/OpenChannel.md)
-* [3. How to transfer ERC20 tokens through payment channel](https://github.com/dopetard/Raiden-ERC20-Atomic-Swap-POC-/blob/master/TransferTokens.md)
-* [4. How to execute Atomic-Swap between two Raiden nodes](https://github.com/dopetard/Raiden-ERC20-Atomic-Swap-POC-/blob/master/AtomicSwap.md)
