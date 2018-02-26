@@ -1,7 +1,7 @@
 
 <h1>3. How to transfer ERC20 tokens through a Payment Channel </h1>
 
-Raiden's Web Application makes transferring the tokens a breeze 
+Raiden's Web Application makes transferring tokens a breeze 
 
 ![Tranferring token UI](https://github.com/dopetard/Raiden-ERC20-Atomic-Swap-POC-/blob/master/Screen%20Shot%202018-02-26%20at%204.39.37%20PM.png)
 
