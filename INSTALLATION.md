@@ -60,7 +60,7 @@ Lauch raiden again with the aforementioned command.
 
 <h2> Setup another virtualenv and Raiden-node to faciliate the transfer and swap of ERC20 tokens </h2> 
 
-**In the works**
+Follow the step above and setup another Raiden node, then start it with different `--api-address` and `--listen-address` than the default 5001 and 40001 respectively (which the first Raiden node is listening on)
 
 Next:
 * [2. How to Open, Close and Settle a Payment Channel](OpenChannel.md)
