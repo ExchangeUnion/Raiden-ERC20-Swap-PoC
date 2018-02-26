@@ -39,7 +39,7 @@ You can also check the channels through `GET /api/1/channels` request
 
 ![Closing/Settling Channel](https://github.com/dopetard/Raiden-ERC20-Atomic-Swap-POC-/blob/master/Screen%20Shot%202018-02-26%20at%205.14.58%20PM.png)
 
-Closing and setting Channel can be done through the `close` endpoint OR done through the WebUI, Once `close` has been called, the settle timeout period starts, During this period the counterparty of the node who closed the channel has to provide it;s last recieved message. When Settlement timeout period is over, the channel can finnally be settled through the webui or sending `PATCH /api/channels/0x887e6a8f1ab580aad33e0a744f6ea55f29d275c2` 
+Closing and setting Channel can be done through the `close` endpoint OR through the WebUI, Once `close` has been called, the settle timeout period starts, During this period the counterparty of the node who closed the channel has to provide it's last recieved message. When Settlement timeout period is over, the channel can finally be settled through webui or sending `PATCH /api/channels/0x887e6a8f1ab580aad33e0a744f6ea55f29d275c2` 
 
 with the payload:
 ` {
