@@ -3,9 +3,9 @@
 <h2> Dependencies </h2>
 
 
-* You will either need [Go-ethereum](https://github.com/ethereum/go-ethereum/wiki/Building-Ethereum) or [Parity](https://github.com/paritytech/parity#simple-one-line-installer-for-mac-and-ubuntu). We will be using the Parity client in this guide, just because it seems nobody did this so far. :smirk:
+* You will either need [Go-ethereum](https://github.com/ethereum/go-ethereum/wiki/Building-Ethereum) or [Parity](https://github.com/paritytech/parity#simple-one-line-installer-for-mac-and-ubuntu). We will be using the Parity client in this guide, as there are plenty of Go-ethereum guides out there!
 
-* If you are planning to build Raiden from source, as we'll do in this guide- You need to have `solc`- The Ethereum's solidity compiler installed.
+* If you are planning to build Raiden from source, as we'll do in this guide - You'll need to have `solc`- The Ethereum's solidity compiler installed.
   Refer to [this](http://solidity.readthedocs.io/en/latest/installing-solidity.html) documentation for the installation steps. 
   
 * You will also need to install the [system dependencies of pythapp](https://github.com/ethereum/pyethapp/#installation-on-ubuntudebian) 
@@ -23,7 +23,7 @@
  
   `cd raiden`
 
-* It’s advised to create a [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/) for Raiden and install all python dependencies there.
+* It’s advisable to create a [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/) for Raiden and install all python dependencies there.
 
 * After setting up the virtualenv, proceed to install the dependencies for Raiden
 
@@ -38,9 +38,9 @@ You will need ports 8545, 8546 and 8180 open if you are trying to run parity rem
 
 `parity --chain ropsten --bootnodes "enode://076bba608093d171bfdbb905b76aa089e2d746eaf263a2c604dfa143ba609548fdff5d734081a617f48a6802df7a71a4ee48f2175d89d17d333be3e747c87e72@138.197.111.208:30303" --jsonrpc-cors* --unsafe-expose`
 
-If some problem arises or some bootnodes are dead, have a look at the [Ropsten Readme](raiden-network.readthedocs.io/en/stable/overview_and_guide.html)
+If any problem arises or some bootnodes are dead, take a look at the [Ropsten Readme](raiden-network.readthedocs.io/en/stable/overview_and_guide.html)
 
-* After syncing Ropsten, Create an account on the Ropsten testnet by syncing to the URL that Parity shows. Usually this is:
+* After syncing Ropsten, create an account on the Ropsten testnet by syncing to the URL that Parity shows. Usually this is:
 
 `http://127.0.0.1:8180`
 
@@ -58,9 +58,9 @@ use the `--api-address` `--listen-address` flag if you want to customize the IP 
 
 Lauch raiden again with the aforementioned command.
 
-<h2> Setup another virtualenv and Raiden-node to faciliate the transfer and swap of ERC20 tokens </h2> 
+<h2> Set up another virtualenv and Raiden-node to faciliate the transfer and swap of ERC20 tokens </h2> 
 
-Follow the step above and setup another Raiden node, then start it with different `--api-address` and `--listen-address` than the default 5001 and 40001 respectively (which are the ports first Raiden node is listening on)
+Follow the step above and set up another Raiden node, then start it with different `--api-address` and `--listen-address` than the default 5001 and 40001 respectively (which are the ports first Raiden node is listening on)
 
 Next:
 * [2. How to Open, Close and Settle a Payment Channel](OpenChannel.md)
