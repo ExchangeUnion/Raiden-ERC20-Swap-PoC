@@ -3,7 +3,7 @@
 <h2> Dependencies </h2>
 
 
-* You will either need [Go-ethereum](https://github.com/ethereum/go-ethereum/wiki/Building-Ethereum) or [Parity](https://github.com/paritytech/parity#simple-one-line-installer-for-mac-and-ubuntu). We will be using the Parity client in this guide, as there are plenty of Go-ethereum guides out there!
+* You will either need [Go-ethereum](https://github.com/ethereum/go-ethereum/wiki/Building-Ethereum) or [Parity](https://github.com/paritytech/parity#simple-one-line-installer-for-mac-and-ubuntu). We will be using the Parity client in this guide.
 
 * If you are planning to build Raiden from source, as we'll do in this guide - You'll need to have `solc`- The Ethereum's solidity compiler installed.
   Refer to [this](http://solidity.readthedocs.io/en/latest/installing-solidity.html) documentation for the installation steps. 
